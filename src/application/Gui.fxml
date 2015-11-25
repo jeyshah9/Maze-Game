@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPlane" styleClass="layout" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+	<children>
+
+
+		<Pane layoutX="-101.0" layoutY="-52.0" prefHeight="543.0" prefWidth="570.0">
+			<children>
+				<MenuBar fx:id="menu" layoutX="101.0" layoutY="53.0" prefHeight="25.0" prefWidth="469.0">
+					<menus>
+						<Menu mnemonicParsing="false" text="Change">
+							<items>
+                        <MenuItem mnemonicParsing="false" onAction="#changeTheme" text="Change Theme" />
+							</items>
+						</Menu>
+						<Menu mnemonicParsing="false" text="Help">
+							<items>
+								<MenuItem mnemonicParsing="false" text="Solve" />
+                        <MenuItem mnemonicParsing="false" text="About" />
+							</items>
+						</Menu>
+					</menus>
+				</MenuBar>
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="17.0" layoutX="101.0" layoutY="149.0" stroke="BLACK" strokeType="INSIDE" width="469.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="17.0" layoutX="101.0" layoutY="238.0" stroke="BLACK" strokeType="INSIDE" width="469.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="17.0" layoutX="101.0" layoutY="454.0" stroke="BLACK" strokeType="INSIDE" width="469.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="466.0" layoutX="147.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="466.0" layoutX="216.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+				<Arc fx:id="ani1" fill="DODGERBLUE" layoutX="535.0" layoutY="466.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="130.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani7" fill="DODGERBLUE" layoutX="324.0" layoutY="250.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Sphere fx:id="ball" layoutX="535.0" layoutY="513.0" radius="10.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="466.0" layoutX="286.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="466.0" layoutX="355.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="466.0" layoutX="428.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="466.0" layoutX="497.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="17.0" layoutX="101.0" layoutY="385.0" stroke="BLACK" strokeType="INSIDE" width="469.0" />
+				<Rectangle arcHeight="5.0" arcWidth="5.0" height="17.0" layoutX="101.0" layoutY="315.0" stroke="BLACK" strokeType="INSIDE" width="469.0" />
+				<Arc fx:id="ani2" fill="DODGERBLUE" layoutX="535.0" layoutY="397.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="130.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani3" fill="DODGERBLUE" layoutX="535.0" layoutY="327.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="130.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani4" fill="DODGERBLUE" layoutX="507.0" layoutY="282.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="-133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani6" fill="DODGERBLUE" layoutX="365.0" layoutY="281.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="-133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani5" fill="DODGERBLUE" layoutX="438.0" layoutY="282.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="-133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani8" fill="DODGERBLUE" layoutX="296.0" layoutY="201.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="-133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani9" fill="DODGERBLUE" layoutX="226.0" layoutY="201.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="-133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani10" fill="DODGERBLUE" layoutX="157.0" layoutY="201.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="-133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+				<Arc fx:id="ani11" fill="DODGERBLUE" layoutX="126.0" layoutY="161.0" length="270.0" radiusX="25.0" radiusY="21.0" startAngle="133.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>
